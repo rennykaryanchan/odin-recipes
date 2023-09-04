@@ -1,0 +1,52 @@
+/* CSS Stylesheet */
+* {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.imagecontainer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.recipebox {
+    margin: auto;
+    border-radius: 5px;
+    width: 550px;
+    height:auto;
+    color: aliceblue;
+    background-color: rgb(125, 71, 212);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.items {
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    width: 230px;
+    background-color: greenyellow;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,32 @@
 </head>
 <body>
     <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/kimchijjigae.html">Kimchijjigae Recipe</a></li>
-        <li><a href="./recipes/poachedeggs.html">Poached Eggs Recipe</a></li>
-        <li><a href="./recipes/dill_potato_salad.html">Dill Potato Salad Recipe</a></li>
-        <li><a href="./recipes/smoked_salmon_salad.html">Smoked Salmon Salad Recipe</a></li>
-    </ul>
+    <div class="main">
+      <div class ="recipebox">
+        <a href="./recipes/kimchijjigae.html">
+          <div class="items"> 
+              <div class="imagecontainer">
+                <img src="./images/kimchijjigae.jpg">
+              </div>
+              <p>Kimchijjigae Recipe</p>
+          </div></a>
+          <div class="items">
+            <div class="imagecontainer">
+              <img src="./images/poachedeggs.jpg">
+            </div>
+            <p><a href="./recipes/poachedeggs.html">Poached Eggs Recipe</a></p>
+          </div>
+          <div class="items"><div class="imagecontainer">
+            <img src="./images/dillpotatosalad.jpg">
+          </div>
+            <p><a href="./recipes/dill_potato_salad.html">Dill Potato Salad Recipe</a></p>
+          </div>
+          <div class="items">
+            <div class="imagecontainer">
+              <img src="./images/smoked_salmon_salad.jpg">
+            </div>
+            <p><a href="./recipes/smoked_salmon_salad.html">Smoked Salmon Salad Recipe</a></div></p>
+      </div>
+    </div>
 </body>
 </html>
