@@ -14,8 +14,8 @@ body {
 .recipebox {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(125, 71, 212);
-    justify-content: space-between; /* Adjust as needed */
+    background-color: rgb(125, 71, 212); 
+    justify-content: space-evenly;
     align-items: center; /* Adjust as needed */
     justify-content: space-around; /* Center items horizontally */
     max-width: max-content; /* Set the max width to the width of the content */
